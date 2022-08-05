@@ -8,6 +8,7 @@ import { NextPageWithLayout } from "types/global"
 
 const Store: NextPageWithLayout = () => {
   const [params, setParams] = useState<StoreGetProductsParams>({})
+  console.log("params",params)
 
   return (
     <>

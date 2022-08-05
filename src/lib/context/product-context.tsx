@@ -53,6 +53,7 @@ export const ProductProvider = ({
       Object.assign(optionObj, { [option.id]: undefined })
     }
     setOptions(optionObj)
+    console.log("options",options)
   }, [product])
 
   // memoized record of the product's variants

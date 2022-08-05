@@ -1,6 +1,7 @@
 function withStoreConfig(nextConfig = {}) {
   const features = nextConfig.features || {}
 
+
   nextConfig.env = nextConfig.env || {}
 
   Object.entries(features).forEach(([key, value]) => {

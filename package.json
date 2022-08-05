@@ -31,6 +31,7 @@
     "@stripe/stripe-js": "^1.29.0",
     "clsx": "^1.1.1",
     "lodash": "^4.17.21",
+    "medusa-plugin-algolia": "^0.0.9-alpha.63",
     "medusa-react": "^0.3.4",
     "next": "^12.2.0",
     "react": "17.0.2",
